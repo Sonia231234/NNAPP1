@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="rayitas"/>
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="corazon"/>
+
+    <item
+        android:id="@+id/threeFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="carrito"/>
+
+    <item
+        android:id="@+id/fourFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="envio"/>
+
+    <item
+        android:id="@+id/fiveFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="buscar"/>
+
+</menu>
