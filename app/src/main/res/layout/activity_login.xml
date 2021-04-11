@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:onClick="ACCEDER"
+    tools:context=".LoginActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/acceder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -17,6 +18,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:backgroundTint="@color/white"
+        android:onClick="ACCEDER"
         android:text="ACCEDER"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,17 +27,14 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/btncorreo"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
         android:background="@color/white"
         android:scaleType="fitCenter"
-        app:layout_constraintStart_toEndOf="@+id/imageButton14"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:srcCompat="@drawable/gmaillll" />
+        app:srcCompat="@drawable/gmaillll"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="531dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,46 +55,46 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Contraseña"
-        android:backgroundTint="@color/white"
-        android:textColorHint="@color/white_opaco"
         android:inputType="textPassword"
+        android:textColorHint="@color/white_opaco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/btninstagram"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="28dp"
         android:background="@color/white"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:srcCompat="@drawable/instagrammmmmmmmmm" />
+        app:srcCompat="@drawable/instagrammmmmmmmmm"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="531dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/registrarse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/white"
         android:layout_marginRight="32dp"
-        android:textColor="@color/black"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="@color/white"
+        android:onClick="REGISTRARSE"
+        android:scaleType="fitCenter"
         android:text="REGISTRARSE"
-
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+       />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -106,27 +105,24 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Correo electrónico"
-        android:textColorHint="@color/white_opaco"
         android:inputType="textPersonName"
+        android:textColorHint="@color/white_opaco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/btnfacebook"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:background="@color/white"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton14"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:srcCompat="@drawable/facebookkk" />
+        app:srcCompat="@drawable/facebookkk"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="531dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

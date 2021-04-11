@@ -13,11 +13,20 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    
-    
+
+
     <style name="BottomNavigation">
         <item name="android:background">#59252D</item>
         <item name="itemIconTint">@color/pink_claro</item>
         <item name="itemTextColor">@color/pink_claro</item>
     </style>
+
+    <style name="Theme.NNAPP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NNAPP.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NNAPP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
