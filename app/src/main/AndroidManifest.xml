@@ -9,10 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NNAPP">
+        <activity android:name=".Vestidos"></activity>
+        <activity android:name=".Faldas" />
+        <activity android:name=".Accesorios" />
+        <activity android:name=".Camisas" />
+        <activity android:name=".Shorts" />
+        <activity android:name=".Blusas" />
+        <activity android:name=".TabLayout" />
         <activity
             android:name=".navigation_drawer"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.NNAPP.NoActionBar"></activity>
+            android:theme="@style/Theme.NNAPP.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">

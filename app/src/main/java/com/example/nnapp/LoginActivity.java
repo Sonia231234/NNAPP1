@@ -29,7 +29,30 @@ public class LoginActivity extends AppCompatActivity {
                 Intent acceder = new Intent(LoginActivity.this, navigation_drawer.class);
                 startActivity(acceder);
             }
+
+
         });
 
+        registrarse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registrarse = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(registrarse);
+            }
+
+
+        });
+
+    }
+    //Los botones de imagenes los estoy poniendo solo con un texto porque nose como mandarlos a una liga de paginas web
+    public void botonsito_de_facebook(View view){
+        Toast.makeText(this, "El boton de facebook si sirve", Toast.LENGTH_SHORT).show();
+    }
+
+    public void botonsito_de_gmail(View view){
+        Toast.makeText(this, "El boton de facebook si sirve", Toast.LENGTH_SHORT).show();
+    }
+    public void botonsito_de_instagram(View view){
+        Toast.makeText(this, "El boton de facebook si sirve", Toast.LENGTH_SHORT).show();
     }
 }
