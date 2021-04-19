@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "488329281992",
+    "project_id": "nnapp-de70e",
+    "storage_bucket": "nnapp-de70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488329281992:android:a0243017cf43b7cd6580fd",
+        "android_client_info": {
+          "package_name": "com.example.nnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488329281992-ikgoneas0oloc081ngdord6d723f678a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nnapp",
+            "certificate_hash": "c76a6895fa251e513e69df2f55f27f5106974ab5"
+          }
+        },
+        {
+          "client_id": "488329281992-utvpihh96coq3naeht1vgvfri03fq29t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQVctDRr4GjN5f0tlel7ykEciBPxunoj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488329281992-utvpihh96coq3naeht1vgvfri03fq29t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
