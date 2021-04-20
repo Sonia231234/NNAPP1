@@ -3,4 +3,5 @@
     <item name="text_gallery" type="id" />
     <item name="text_home" type="id" />
     <item name="text_slideshow" type="id" />
+    <item name="editTextPersonName" type="id" />
 </resources>

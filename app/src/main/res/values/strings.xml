@@ -15,5 +15,9 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="IB">Informacion</string>
+    
+    <string name="Email_invalido">Ingrese un correo valido</string>
+    <string name="Contra_invalida">Ingrese una contraseña que sea mayor a 6 digitos</string>
+
 
 </resources>

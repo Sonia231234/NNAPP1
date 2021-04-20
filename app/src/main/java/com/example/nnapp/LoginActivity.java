@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -19,12 +20,15 @@ import java.util.List;
 public class LoginActivity extends AppCompatActivity {
 
         Button acceder, registrarse;
+        EditText editTextTextPersonName, editTextTextPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        editTextTextPersonName = findViewById(R.id.editTextPersonName);
+        editTextTextPassword = findViewById(R.id.editTextTextPassword);
         acceder = findViewById(R.id.acceder);
         registrarse = findViewById(R.id.registrarse);
 
@@ -37,7 +41,6 @@ public class LoginActivity extends AppCompatActivity {
 
 
         });
-
 
         registrarse.setOnClickListener(new View.OnClickListener() {
             @Override

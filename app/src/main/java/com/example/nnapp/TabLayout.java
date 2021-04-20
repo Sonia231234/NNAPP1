@@ -37,7 +37,7 @@ public class TabLayout extends AppCompatActivity {
                 R.drawable.ic_favoritos_elchido,
                 R.drawable.ic_carrito_elchido,
                 R.drawable.ic_envios_elchido,
-                R.drawable.ic_buscar_elchido
+
         };
 
         new TabLayoutMediator((com.google.android.material.tabs.TabLayout) tabLayout, viewPager2,(tab, position)->tab.setIcon(icon[position])).attach();
