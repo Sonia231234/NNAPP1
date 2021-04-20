@@ -1,28 +1,53 @@
 package com.example.nnapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
-public class RegisterActivity extends AppCompatActivity {
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RegisterActivity<DatabaseReference> extends AppCompatActivity {
+
+     EditText mEditTextNombre;
+     EditText mEditTextApellido;
+     EditText mEditTextCorreo;
+     EditText mEditTextTextContraseña;
+     Button mButtonRegistro;
+
+    FirebaseAuth mAuth;
+    private DatabaseReference mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        View button3 = findViewById(R.id.button3);
+        mAuth = FirebaseAuth.getInstance();
+        mDatabase = (DatabaseReference) FirebaseDatabase.getInstance().getReference();
 
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent button3 = new Intent(RegisterActivity.this, navigation_drawer.class);
-                startActivity(button3);
-            }
+        mEditTextNombre = (EditText) findViewById(R.id.editTextTextNombre);
+        mEditTextApellido = (EditText) findViewById(R.id.editTextTextApellido);
+        mEditTextCorreo = (EditText) findViewById(R.id.editTextTextCorreo);
+        mEditTextTextContraseña = (EditText) findViewById(R.id.editTextTextContraseña);
+        mButtonRegistro = (Button) findViewById(R.id.buttonRegistro);
 
 
-        });
+
+    }
+    private void dameToastdeerror(String Error){
+
     }
 }

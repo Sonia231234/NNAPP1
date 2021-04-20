@@ -8,7 +8,7 @@
     android:background="@color/black">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -18,15 +18,15 @@
         android:layout_marginRight="32dp"
         android:backgroundTint="@color/white"
         android:text="REGISTRARSE"
-        android:onClick="@+id/button3"
+        android:onClick="@+id/buttonRegistro"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextContraseña" />
 
     <EditText
-        android:id="@+id/editTextTextPassword4"
+        android:id="@+id/editTextTextContraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/editTextTextCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editTextTextApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -93,7 +93,7 @@
         app:srcCompat="@drawable/intrologo" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextTextNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"

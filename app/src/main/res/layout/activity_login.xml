@@ -105,10 +105,10 @@
         android:onClick="botonsito_de_facebook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821"
+        app:layout_constraintVertical_bias="0.822"
         app:srcCompat="@drawable/ic_facebook_elchido" />
 
     <ImageButton
@@ -119,25 +119,11 @@
         android:onClick="botonsito_de_gmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82"
+        app:layout_constraintVertical_bias="0.822"
         app:srcCompat="@drawable/ic_gmail_elchido" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
-        android:contentDescription="@string/IB"
-        android:onClick="botonsito_de_instragram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.797"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82"
-        app:srcCompat="@drawable/ic_instagram_elchido" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

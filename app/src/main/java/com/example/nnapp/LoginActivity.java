@@ -10,10 +10,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.List;
+
 public class LoginActivity extends AppCompatActivity {
 
         Button acceder, registrarse;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         });
+
 
         registrarse.setOnClickListener(new View.OnClickListener() {
             @Override
